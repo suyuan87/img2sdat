@@ -28,7 +28,7 @@ import subprocess
 import threading
 import time
 import tempfile
-from lib.img2sdat.rangelib import RangeSet
+from rangelib import RangeSet
 
 
 __all__ = ["EmptyImage", "DataImage", "BlockImageDiff"]
