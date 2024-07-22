@@ -30,8 +30,7 @@ import tempfile
 import threading
 import time
 import zipfile
-
-from lib.img2sdat import blockimgdiff
+import blockimgdiff
 
 from hashlib import sha1 as sha1
 
